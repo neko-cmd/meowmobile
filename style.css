@@ -1,0 +1,236 @@
+
+.heading-site{
+    text-align: center;
+    font-family:'Montserrat:400,700', sans-serif ;
+    font-size: 25px;
+}
+.header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.header .header-logo {
+   
+    color: white;
+    font-family: 'Montserrat:400,700', sans-serif;
+    float: left;
+    margin-left: 30px;  
+    text-decoration: none;
+}
+.header .header-menu{
+    float: right;
+    margin-right: 30px;
+}
+.header .header-menu a{
+    margin-right: 15px;
+    color: white;
+}
+.header .header-menu a:hover{
+    color:#6dd5ed;
+    text-decoration: none;
+}
+.banner{
+    margin-top: -20px;
+}
+.banner .banner-img{
+position: relative;
+}
+.banner .banner-content{
+position: absolute;
+width: 100%;
+top: 50%;
+}
+.banner .banner-content h1 , 
+.banner .banner-content h2{
+    color: #6dd5ed;
+    font-size: 30px;
+
+}
+.banner .banner-content button{
+    background-color: rgba(0, 0, 0, 0);
+    color:#6dd5ed;
+    
+}
+
+.banner .banner-content button:hover{
+    background: #2193b0;  
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  
+    background: linear-gradient(to right, #6dd5ed, #2193b0); 
+    color: #fff;
+}
+
+.slide{
+    float: left;
+}
+
+ .slides{
+    width: calc(500px * 4);
+    animation: glisse 30s infinite;
+}
+.slider{
+  overflow: hidden;
+   
+}
+@keyframes glisse{
+0%{
+    transform: translateX(0);
+}
+10%{
+    transform: translateX(0);
+}
+25%{
+    transform: translateX(-350px);
+}
+35%{
+    transform: translateX(-350px);
+}
+50%{
+    transform: translateX(-700px);
+}
+60%{
+    transform: translateX(-700px);
+}
+75%{
+    transform: translateX(-900px);
+}
+85%{
+    transform: translateX(-900px);
+}
+
+100%{
+    transform: translateX(0);
+}
+}
+body{
+	margin:0;
+	padding:0;
+}
+
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+.portfolio-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
+}
+
+.card-title{
+   text-align: center;
+   font-size: xx-small;
+}
+.card-head{
+    position: relative;
+    overflow: hidden;
+}
+.card-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+.product-price{
+    font-family: 'Raleway', sans-serif;
+    color: #ad1f00;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    margin-top: -5%;
+}
+.product{
+    text-align: center;
+    margin-top: -5%;
+}
+/*footer*/
+.col_white_amrc { color:#FFF;}
+.footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+.container .row h4{
+    font-family: 'Comic Neue', cursive;  
+}
+.banner .banner-content3{
+    font-family: 'Comic Neue', cursive; 
+    font-weight: bold;
+    font-size:25px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    columns: black;
+  
+}
+.columns  .item-3 img{
+    margin-top: -5%;
+}
+.columns .item-4 img{
+    margin-top: -5%;
+}
+.container5 .columns{
+    position: absolute;
+    width: 100%;
+    font-family: 'Comic Neue', cursive;
+    top: 297%;
+    font-weight: bold;
+ }
+.columns .item-2 {
+   color: whitesmoke;
+ }
+.columns .item-5 {
+  color: whitesmoke;
+  
+ }
